@@ -114,6 +114,13 @@ const fns = {
       return parsed
     }
   },
+  dirlist: {
+    response: 'listd',
+    minArgs: 1,
+    maxArgs: 2,
+    help: 'dirlist <directory> <dumpfiles=false>',
+    helptxt: 'List contents of provided Direcotry and if true is second argument then files will be recursively dumped'
+  },
   gc: {
     response: 'gcran',
     helptxt: 'Forcefully run GC'
