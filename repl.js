@@ -121,6 +121,12 @@ const fns = {
     help: 'dirlist <directory> <dumpfiles=false>',
     helptxt: 'List contents of provided Direcotry and if true is second argument then files will be recursively dumped'
   },
+  dumpfile: {
+    response: 'dumpd',
+    args: 1,
+    help: 'dumpfile <filepath>',
+    helptxt: 'Dumps a single file from the system'
+  },
   gc: {
     response: 'gcran',
     helptxt: 'Forcefully run GC'
